@@ -1,0 +1,23 @@
+{
+  "name": "modern-angular15-seed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "systemjs": "^0.19.41",
+    "systemjs-plugin-css": "^0.1.32",
+    "systemjs-plugin-text": "0.0.9"
+  },
+  "devDependencies": {
+    "@types/angular": "^1.5.21",
+    "@types/core-js": "^0.9.35",
+    "@types/node": "^6.0.52",
+    "@types/systemjs": "^0.19.33"
+  }
+}
