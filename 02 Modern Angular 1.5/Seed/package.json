@@ -17,7 +17,6 @@
   },
   "devDependencies": {
     "@types/angular": "^1.5.21",
-    "@types/core-js": "^0.9.35",
     "@types/node": "^6.0.52",
     "@types/systemjs": "^0.19.33",
     "typescript": "^2.1.4"
