@@ -20,6 +20,7 @@
     "@types/node": "^6.0.52",
     "@types/systemjs": "^0.19.33",
     "http-server": "^0.9.0",
+    "node-sass": "^4.0.0",
     "open": "0.0.5",
     "typescript": "^2.1.4"
   }
