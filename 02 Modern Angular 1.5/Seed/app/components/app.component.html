@@ -1,3 +1,13 @@
 <div class="app-menu">
     <span class="logo">Modern Angular 1</span>
 </div>
+
+<div>
+    <my-clock #clock1></my-clock>
+    <button ng-click="$ctrl.clock1.stop()">Stop</button>
+</div>
+
+<div>
+    <my-clock #clock2></my-clock>
+    <button ng-click="$ctrl.clock2.stop()">Stop</button>
+</div>

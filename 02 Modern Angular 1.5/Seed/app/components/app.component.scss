@@ -1,6 +1,9 @@
 my-app {
-  display: flex;
-  flex-direction: column;
+  display: block;
+
+  button {
+    color: red;
+  }
 
   .app-menu {
     background-color: black;
