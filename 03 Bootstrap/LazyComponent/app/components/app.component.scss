@@ -1,0 +1,21 @@
+my-app {
+  display: block;
+
+  .content {
+    padding: 1em;
+  }
+
+  .clock {
+    margin-bottom: 1em;
+  }
+
+  .app-menu {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+
+    .logo {
+      font-size: 1.25em;
+    }
+  }
+}
