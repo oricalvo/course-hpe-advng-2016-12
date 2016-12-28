@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{$$watchersCount}}</h1>
+
+    <div ng-controller="HomeCtrl">
+        <div>{{counter2}}</div>
+        <div>{{counter}}</div>
+        <button ng-click="run()">Click</button>
+    </div>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

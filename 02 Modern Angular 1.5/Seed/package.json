@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.component.js",
   "scripts": {
-    "start": "node_modules/.bin/ts-node build/start.ts",
-    "dev": "node_modules/.bin/ts-node build/dev.ts"
+    "start": "ts-node build/start.ts",
+    "dev": "ts-node build/dev.ts",
+    "postcss": "postcss"
   },
   "author": "",
   "license": "ISC",

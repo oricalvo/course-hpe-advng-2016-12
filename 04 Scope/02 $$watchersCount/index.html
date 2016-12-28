@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>{{$$watchersCount}}</h1>
+
+    <div ng-controller="HomeCtrl">
+        {{title}}
+
+        <ul>
+            <li ng-repeat="contact in contacts">
+                <span>{{contact.name}}</span>
+            </li>
+        </ul>
+
+        <button ng-click="change()">Change DOM</button>
+    </div>
+
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
