@@ -4,17 +4,20 @@
   "description": "",
   "main": "app.component.js",
   "scripts": {
-    "start": "node_modules\\.bin\\tsc && node_modules\\.bin\\node-sass ./app --recursive --output ./app && START node_modules\\.bin\\http-server && node_modules\\.bin\\opener http:localhost:8080",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node_modules/.bin/ts-node build/start.ts",
+    "dev": "node_modules/.bin/ts-node build/dev.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.0",
+    "nodemon": "^1.11.0",
     "opener": "^1.4.2",
+    "shelljs": "^0.7.5",
     "systemjs": "^0.19.41",
     "systemjs-plugin-css": "^0.1.32",
-    "systemjs-plugin-text": "0.0.9"
+    "systemjs-plugin-text": "0.0.9",
+    "ts-node": "^1.7.3"
   },
   "devDependencies": {
     "@types/angular": "^1.5.21",

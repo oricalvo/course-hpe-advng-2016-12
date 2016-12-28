@@ -10,14 +10,20 @@ export class ClockComponent extends ComponentBase {
 
         this.time = new Date();
 
-        this.intervalId = $interval(() => {
+        this.start();
+    }
+
+    start() {
+        if(this.intervalId) {
+            return;
+        }
+
+        this.intervalId = this.$interval(() => {
             this.time = new Date();
         }, 1000);
     }
 
     stop() {
-        console.log("stop");
-
         if(this.intervalId) {
             this.$interval.cancel(this.intervalId);
             this.intervalId = null;

@@ -1,8 +1,13 @@
 my-app {
-  display: block;
+  display: flex;
+  flex-direction: column;
 
-  button {
-    color: red;
+  .content {
+    padding: 1em;
+  }
+
+  .clock {
+    margin-bottom: 1em;
   }
 
   .app-menu {
