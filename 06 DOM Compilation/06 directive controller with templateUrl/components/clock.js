@@ -7,6 +7,11 @@ module.directive("myClock", function () {
 
             $scope.time = new Date();
         },
+        link: function(scope) {
+            console.log("link");
+
+            scope.$emit("clockReady");
+        },
         templateUrl: "components/clock.html"
     };
 });

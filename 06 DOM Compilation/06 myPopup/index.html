@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="components/popup.css">
+</head>
+<body>
+    <div ng-controller="HomeCtrl">
+        <button ng-click="showPopup()">Show Popup</button>
+
+        <my-popup>
+            <h1>My Popup</h1>
+
+            <button ng-click="run()">Hello</button>
+        </my-popup>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="common.js"></script>
+    <script src="components/popup.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

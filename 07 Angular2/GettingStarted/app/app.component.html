@@ -1,0 +1,9 @@
+<h1>Hello {{name}}</h1>
+
+<my-clock #clock1
+          [format]="format"
+          (tick)="onTick()"></my-clock>
+<button (click)="start()">Start</button>
+<button (click)="stop()">Stop</button>
+
+<my-contact-list></my-contact-list>
